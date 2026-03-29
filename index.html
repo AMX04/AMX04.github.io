@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanandit Mittal | Portfolio</title>
+    <!-- Modern typography -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Corner Certificates Feature -->
+    <div class="certificates-corner" id="certCorner">
+        <div class="cert-icon">🏆</div>
+        <div class="cert-text">Certificates</div>
+        <div class="cert-dropdown">
+            <img src="assets/google-foundations.png" alt="Google Security" class="cert-thumb">
+            <img src="assets/hackerrank-intermediate.png" alt="HackerRank SQL" class="cert-thumb">
+            <img src="assets/scaler-dsa-cpp.png" alt="Scaler DSA" class="cert-thumb">
+            <a href="#certificates" class="view-all-link">View All Credentials</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Aanandit<span>.</span></div>
+        <ul class="nav-links" style="align-items: center;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Credentials</a></li>
+            <li id="react-button-root"></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="Aanandit Mittal">Aanandit Mittal</h1>
+            <p>Cybersecurity-focused Computer Science student with hands-on experience in Linux, SQL, and foundational network security. Skilled in Flutter application development and backend database management.</p>
+            <div class="hero-actions" style="flex-wrap: wrap; gap: 1rem;">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#certificates" class="btn secondary-btn">Credentials</a>
+            </div>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- Projects & Videos Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Project <span>Showcase</span></h2>
+            
+            <div class="video-grid">
+                <!-- Hospital Management System -->
+                <div class="video-card glass-panel">
+                    <h3>Hospital Management System</h3>
+                    <div class="video-wrapper">
+                        <!-- Embedded Google Drive Link -->
+                        <iframe src="https://drive.google.com/file/d/1IC7H_Z4pW_N7yM76KI5mg9wASCQ2jkhT/preview" allow="autoplay" style="border:none; position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+                    </div>
+                    <p>Designed a normalized relational database schema for managing patients, doctors, and appointments using complex SQL queries with JOINs and aggregate functions.</p>
+                </div>
+
+                <!-- Linux Lab -->
+                <div class="video-card glass-panel">
+                    <h3>Linux & SQL Lab Practice</h3>
+                    <div class="video-wrapper">
+                        <!-- Add your actual phase video here -->
+                        <video controls poster="https://via.placeholder.com/800x450/0a0a0a/00f2fe?text=Linux+%26+SQL+Lab">
+                            <source src="assets/trial-video.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                    <p>Practiced Linux command-line operations inside Virtual Machines, performing structured data querying while mastering foundational system monitoring and security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Resume Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">My <span>Credentials</span></h2>
+            
+            <div class="creds-wrapper">
+                <div class="resume-card glass-panel">
+                    <h3>Professional Resume</h3>
+                    <p>B.Tech in Computer Science Engineering from VIT Vellore (2024 - 2028). Check out my full resume outlining my technical skills in C++, Java, Dart, SOC Concepts, and more.</p>
+                    <div class="resume-actions" style="flex-direction: row; gap: 1rem; flex-wrap: wrap;">
+                        <!-- Using Google Drive's uc?export trick for a direct download -->
+                        <a href="https://drive.google.com/uc?export=download&id=1ZxjUP6ZV1G_34csA8Eu8rkgOKZgvGjas" class="btn primary-btn">Download Resume (PDF)</a>
+                        <a href="https://drive.google.com/file/d/1ZxjUP6ZV1G_34csA8Eu8rkgOKZgvGjas/view?usp=sharing" target="_blank" class="btn secondary-btn">Open Online</a>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 1rem; font-size: 2rem; font-weight: 600;">Certifications Collection</h3>
+                
+                <div class="certs-grid">
+                    <!-- Google Master Group Card -->
+                    <div class="cert-card glass-panel" onclick="openGoogleModal()" style="cursor: pointer; border-color: var(--primary-color); position: relative; overflow: hidden; transform-origin: center;">
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #4facfe, #00f2fe);"></div>
+                        <img src="https://images.credly.com/size/340x340/images/6df9521d-93d4-42b7-872f-eb040ba91986/image.png" alt="Google Cybersecurity" style="object-fit: contain; padding: 1rem; background: #fff;">
+                        <div class="cert-info">
+                            <h4>Google Cybersecurity Professional</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">4-Course Certification Program</p>
+                            <span class="cert-link">Click to view all 4 certificates -></span>
+                        </div>
+                    </div>
+
+                    <!-- HackerRank -->
+                    <div class="cert-card glass-panel">
+                        <img src="assets/hackerrank-intermediate.png" alt="HackerRank SQL Intermediate">
+                        <div class="cert-info">
+                            <h4>SQL (Intermediate)</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">HackerRank</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-panel">
+                        <img src="assets/hackerrank-basic.png" alt="HackerRank SQL Basic">
+                        <div class="cert-info">
+                            <h4>SQL (Basic)</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">HackerRank</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+
+                    <!-- Scaler -->
+                    <div class="cert-card glass-panel">
+                        <img src="assets/scaler-dsa-cpp.png" alt="Data Structures in C++">
+                        <div class="cert-info">
+                            <h4>Data Structures in C++</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Scaler Topics</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-panel">
+                        <img src="assets/scaler-oop-java.png" alt="OOP in Java">
+                        <div class="cert-info">
+                            <h4>OOP in Java</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Scaler Topics</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-panel">
+                        <img src="assets/scaler-cpp-essentials.png" alt="C++ Learn the Essentials">
+                        <div class="cert-info">
+                            <h4>C++: Learn the Essentials</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Scaler Topics</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-panel">
+                        <img src="assets/scaler-java-fundamentals.png" alt="Java Mastering the Fundamentals">
+                        <div class="cert-info">
+                            <h4>Java: Mastering Fundamentals</h4>
+                            <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Scaler Topics</p>
+                            <a href="#" target="_blank" class="cert-link">Verify Link -></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aanandit Mittal. Built with dedication.</p>
+    </footer>
+
+    <!-- Google Certificates Modal -->
+    <div id="googleCertsModal" class="modal">
+        <div class="modal-content glass-panel" style="background: rgba(10, 10, 10, 0.95);">
+            <span class="close-modal">&times;</span>
+            <h2 class="section-title" style="font-size: 2.5rem; margin-bottom: 2rem; margin-top: 1rem;">Google <span>Cybersecurity</span></h2>
+            <div class="certs-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+                <div class="cert-card glass-panel" style="padding: 1rem;">
+                    <img src="assets/google-foundations.png" alt="Foundations of Cybersecurity">
+                    <div class="cert-info">
+                        <h4 style="font-size: 1.1rem;">Foundations of Cybersecurity</h4>
+                        <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Google / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-panel" style="padding: 1rem;">
+                    <img src="assets/google-security-risks.png" alt="Manage Security Risks">
+                    <div class="cert-info">
+                        <h4 style="font-size: 1.1rem;">Manage Security Risks</h4>
+                        <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Google / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-panel" style="padding: 1rem;">
+                    <img src="assets/google-networks.png" alt="Networks & Network Security">
+                    <div class="cert-info">
+                        <h4 style="font-size: 1.1rem;">Networks & Network Security</h4>
+                        <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Google / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-panel" style="padding: 1rem;">
+                    <img src="assets/google-linux-sql.png" alt="Linux and SQL">
+                    <div class="cert-info">
+                        <h4 style="font-size: 1.1rem;">Linux and SQL</h4>
+                        <p style="font-size:0.9rem; margin-bottom: 0.5rem; color: #a0a0a0;">Google / Coursera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Standard JavaScript -->
+    <script src="js/animations.js"></script>
+    <script src="js/modal.js"></script>
+
+    <!-- React 18 Core Packages via CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <!-- Babel allows us to write React JSX straight in the browser -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Our React Component (Inlined to bypass local file CORS block) -->
+    <script type="text/babel">
+        // This is a dedicated React 18 component written using modern JSX!
+        const ConnectButton = () => {
+            const handleConnect = () => {
+                const gmailLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=aanandit0603@gmail.com';
+                window.open(gmailLink, '_blank');
+            };
+
+            return (
+                <button 
+                    className="btn secondary-btn" 
+                    style={{ 
+                        borderColor: '#ea4335', 
+                        color: '#ea4335', 
+                        background: 'rgba(234, 67, 53, 0.05)', 
+                        display: 'inline-flex', 
+                        alignItems: 'center', 
+                        padding: '0.4rem 1.2rem',
+                        fontSize: '0.9rem'
+                    }} 
+                    onClick={handleConnect}
+                >
+                    ✉️ Connect
+                </button>
+            );
+        };
+
+        const domNode = document.getElementById('react-button-root');
+        if (domNode) {
+            const root = ReactDOM.createRoot(domNode);
+            root.render(<ConnectButton />);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@media (max-width: 960px) {
+    .video-grid, .creds-wrapper, .certs-grid {
+        grid-template-columns: 1fr;
+    }
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+    nav {
+        padding: 1rem 2rem;
+    }
+    .certificates-corner {
+        bottom: 15px;
+        right: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-actions {
+        flex-direction: column;
+    }
+    .nav-links {
+        display: none; /* simple mobile nav override for now */
+    }
+}
