@@ -1,0 +1,12 @@
+code\protfiolio\
+├── css/
+│   ├── main.css           (Variables, typography)
+│   ├── components.css     (Nav, Buttons, Glassmorphism panels)
+│   ├── sections.css       (Hero layout, Video Grids, Certificate cards)
+│   └── responsive.css     (Media Queries)
+├── js/
+│   ├── animations.js      (Intersection observer scroll animations)
+│   ├── modal.js           (Google Certificate pop-up logic)
+│   └── react-connect.js   (Dedicated standalone React 18 Component)
+├── assets/                (Your media uploads folder)
+└── index.html             (The main structural website frame)
