@@ -21,6 +21,9 @@
         flex-direction: column;
     }
     .nav-links {
-        display: none; /* simple mobile nav override for now */
+        display: none; 
     }
 }
+
+
+/* no update required in this section of the file as it is only required to run the website on  different devices*/
