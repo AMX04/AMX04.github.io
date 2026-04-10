@@ -77,14 +77,14 @@ section.visible {
 }
 .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
     height: 0;
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 1rem;
     background: #0a0a0a;
     border: 1px solid var(--border-color);
-}
+}/*the asoect ratio is 16:9*/ 
 .video-wrapper video {
     position: absolute;
     top: 0;
@@ -94,7 +94,7 @@ section.visible {
     object-fit: cover;
 }
 
-/* Credits / Resumes */
+/* Credits / Resumes update karn na ha agar aur uokoad kara ha */
 .creds-wrapper {
     display: flex;
     flex-direction: column;
