@@ -22,7 +22,7 @@ I've included a few projects on the site that I'm really proud of:
 ## 🏆 My Certifications
 
 I believe in constantly learning, so I've added a dedicated section for my credentials:
-- **Google Cybersecurity Professional Certificate** (A really fun 4-course deep dive!)
+- **Google Cybersecurity Professional Certificate** 
 - **HackerRank:** SQL Intermediate and Basic.
 - **Scaler Topics:** Deep dives into Data Structures in C++ and Object-Oriented Programming in Java.
 
